@@ -10,7 +10,7 @@
     border: 1px solid black;
     padding: 25px;
     margin-top: 35px;
-    margin-left: 33px;
+    margin-left: 25px;
 }
 .toggleBtn {
   
@@ -24,7 +24,7 @@
 }
 .toggleBtn span {
   display:block;
-  width:55px;
+  width:35px;
   height:8px;
   background:#000000;
   margin:6px 25px; 
@@ -40,7 +40,7 @@
 }
 .toggleBtn.active span:nth-child(2) {
     transform-origin: left;
-    transform: rotate(-45deg) translateX(-21px) translateY(22px);
+    transform: rotate(-45deg) translateX(-10px) translateY(12px);
 }
 
 .menu {
@@ -49,6 +49,7 @@
   left:0px;
   width:100vw;
   height:100vh;
+  font-family: sans-serif;
 }
 .menu:before,.menu:after {
   content:"";
@@ -94,4 +95,37 @@
 }
 .menu.active ul {
   top:50%;
+}
+
+/*social media icons */
+.social a {
+  font-size: 20px;
+
+}
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  
+  color: white;
+}
+.fa-vimeo{
+  
+  color: white;
+}
+.fa-envelope-square{
+  
+  color: white;
+}
+.fa-phone-square{
+  color: white;
 }
